@@ -1,0 +1,164 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*End CSS Rest*/
+
+body{
+	background-color: #FFFFFF;
+}
+
+a{
+	-o-transition: 2s;
+	-ms-transition: 2s;
+	-moz-transition: 2s;
+	-webkit-transition: 2s;
+	transition: 2s;
+	text-decoration: none;
+}
+
+em{
+	font-family: "Times New Roman", Times, serif;
+}
+
+strong{
+	font-style: bold;
+}
+
+img{
+	width: 100%
+}
+
+h1, h2, h3{
+	font-family: "Times New Roman", Times, serif;
+	font-style: normal;
+}
+
+h2{
+	text-transform: normal;
+	font-size: 1.875em;
+	padding: 0 0 1% 0;
+	color: black;
+	font-weight: 800;
+}
+
+h3{
+	text-transform: normal;
+	font-size: 1.875em;
+	padding: 0 0 1% 0;
+	color: black;
+	font-weight: 800;
+}
+
+header{
+	background:
+	linear-gradient(
+	rgba(268,255,265, 0.45),
+	rgba(268,255,265, 0.10)
+	),
+	/*bottom, image*/
+	url();
+	background-color: #009900;
+	width: 100%;
+}
+
+.home{
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 4% 0;
+}
+
+.home h1{
+	font-size: 2em;
+	text-align: center;
+	color: black;
+	text-transform: uppercase;
+	font-weight: 800;
+	line-height: 1.5em;
+}
+
+.wrapper{
+	max-width: 850px;
+	margin: 20 auto;
+	font-family: "Times New Roman", Times, serif; 
+}
+
+.info-context{
+	padding: 4% 0;
+}
+
+.info-context h2{
+	font-family: "Times New Roman", Times, serif; 
+	font-style: normal;
+	font-size: 15px;
+	font-weight: 250;
+	line-height: 1.2;
+	
+}
+
+.info p{
+	font-family: "Times New Roman", Times, serif; 
+	font-style: normal;
+	font-weight: 250;
+	font-size: 17px;
+	line-height: 1.55;
+}
+
+.better{
+	height: 280px;
+	padding: 3% 0;
+	line-height: 1.4;
+}
+
+.better h3{
+	padding: 6% 0;
+	
+
+
+
+
+
